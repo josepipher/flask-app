@@ -7,4 +7,4 @@ WORKDIR /var/www/app/
 
 EXPOSE 8080
 
-RUN ./hello.py
+CMD ["python", "hello.py"]
